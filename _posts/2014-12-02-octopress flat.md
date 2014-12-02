@@ -1,0 +1,7 @@
+---
+title: Octopress Flat
+github_link: http://github.com/alexharris/octopress-flat/
+demo_preview: https://github.com/alexharris/octopress-flat/
+demo_screenshot: 
+description: Theme inspired by "flat" UI
+---
