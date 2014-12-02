@@ -1,23 +1,28 @@
 ---
-layout: default
+layout: custom
 ---
+<div id="portfolio">
+    <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+       <h3>A gallery of Octopress themes</h3>
+       <hr class="separetor">
+    </div><!-- PORTFOLIO SECTION HEAD END -->
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    <!-- PORTFOLIO ITEMS START -->
+    <div class="portfolioitems container">
+        <ul>
+          <div id="shotsByPlayerId">
+            {% for post in site.posts %}
+              <li>
+                <a href="{{ post.github_link}}">
+                  <img src="https://d13yacurqjgara.cloudfront.net/users/149279/screenshots/1828193/santago-free_christmas_sales_and_affiliate_landing_page_template_teaser.jpg">
+                </a>
+                <h3><a href="http://dribbble.com/shots/1829799--alien">{{ post.title }}</a></h3>
+                <div class="likecount"><a href="http://dribbble.com/shots/1829799--alien"><span class="icon-heart"></span> 17</a></div>
+                <div class="commentcount"><a href="http://dribbble.com/shots/1829799--alien"><span class="icon-bubbles"></span> 6</a></div>
+              </li>
+            {% endfor %}
+          </div>
+        </ul><!--REFER TO THE js/drifolio.js-->
+    </div><!-- PORTFOLIO ITEMS END -->
+    <br>
+</div><!-- PORTFOLIO SECTION END -->
