@@ -3,7 +3,7 @@ layout: custom
 ---
 <div id="portfolio">
     <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-       <h3>A gallery of Octopress themes</h3>
+       <h3>3rd party Octopress themes</h3>
        <hr class="separetor">
     </div><!-- PORTFOLIO SECTION HEAD END -->
 
@@ -13,10 +13,16 @@ layout: custom
           <div id="shotsByPlayerId">
             {% for post in site.posts %}
               <li>
+                <h2> {{ post.title }} </h2>
                 <a href="{{ post.github_link}}">
                   <img src="https://d13yacurqjgara.cloudfront.net/users/149279/screenshots/1828193/santago-free_christmas_sales_and_affiliate_landing_page_template_teaser.jpg">
                 </a>
-                <h3><a href="{{ post.github_link}}">{{ post.title }}</a></h3>
+                {% if post.demo_preview %}
+                  <h3><a href="{{ post.demo_preview }}">Preview</a></h3>
+                {% endif %}
+                {% if post.demo_screenshot %}
+                  <h3><a href="{{ post.demo_screenshot }}">Screenshot</a></h3>
+                {% endif %}
                 <p class="post-description">{{ post.description }}</p>
               </li>
             {% endfor %}
