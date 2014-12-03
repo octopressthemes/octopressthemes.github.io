@@ -337,3 +337,13 @@ CUSTOM BOOTSTRAP OVERRIDES
 .post-description{
     height: 60px;
 }
+
+.icon--twitter svg{
+    width: 16px;
+    height: 16px;
+}
+
+.icon--github svg{
+    width: 16px;
+    height: 16px;
+}
