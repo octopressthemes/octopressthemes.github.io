@@ -27,7 +27,8 @@
     h4{font-size: 1.1em;}
 
     /*Portfolio*/
-    #shotsByPlayerId li {width: 96%;}
+    #shotsByPlayerId li:first-child{width: 95%;}
+    #shotsByPlayerId li {width: 95%;}
 
     /*Footer*/
     .footerlinks li{display: none;}
