@@ -1,20 +1,10 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   {% include head.html %}
-
-  <body>
-
+  <body data-spy="scroll">
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
+    {{ content }}
     {% include footer.html %}
-
+    {% include after_js.html %}
   </body>
-
 </html>

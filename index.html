@@ -1,36 +1,37 @@
 ---
-layout: custom
+layout: default
 ---
-<div id="portfolio">
-    <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-       <h3>3rd party Octopress themes</h3>
-       <hr class="separetor">
-    </div><!-- PORTFOLIO SECTION HEAD END -->
 
-    <!-- PORTFOLIO ITEMS START -->
-    <div class="portfolioitems container">
-        <ul>
-          <div id="shotsByPlayerId">
-            {% for post in site.posts %}
-              <li>
-                <h2> {{ post.title }} </h2>
-                <a href="{{ post.github_link}}">
-                  <img src="/screenshots/{{ post.slug }}.png">
-                </a>
-                {% if post.demo_preview %}
-                  <h3><a href="{{ post.demo_preview }}">Preview</a></h3>
-                {% endif %}
-                {% if post.demo_screenshot %}
-                  <h3><a href="{{ post.demo_screenshot }}">Screenshot</a></h3>
-                {% endif %}
-                <p class="post-description">{{ post.description }}</p>
-              </li>
-            {% endfor %}
-          </div>
-        </ul><!--REFER TO THE js/drifolio.js-->
-    </div><!-- PORTFOLIO ITEMS END -->
-    <br>
-</div><!-- PORTFOLIO SECTION END -->
+<div id="portfolio">
+  <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+    <h3>3rd party Octopress themes</h3>
+    <hr class="separetor">
+  </div>
+
+  <div class="portfolioitems container">
+    <ul>
+      <div id="shotsByPlayerId">
+        {% for post in site.posts %}
+          <li>
+            <h2> {{ post.title }} </h2>
+            <a href="{{ post.github_link}}">
+              <img src="/screenshots/{{ post.slug }}.png">
+            </a>
+            {% if post.demo_preview %}
+              <h3><a href="{{ post.demo_preview }}">Preview</a></h3>
+            {% endif %}
+            {% if post.demo_screenshot %}
+              <h3><a href="{{ post.demo_screenshot }}">Screenshot</a></h3>
+            {% endif %}
+            <p class="post-description">{{ post.description }}</p>
+          </li>
+        {% endfor %}
+      </div>
+    </ul>
+  </div>
+  <br>
+
+</div>
 
 <!-- <iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch&count=true"
   allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe> -->
