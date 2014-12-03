@@ -332,3 +332,8 @@ CUSTOM BOOTSTRAP OVERRIDES
     width: 100%;
     text-align: center;
 }
+
+
+.post-description{
+    height: 60px;
+}
