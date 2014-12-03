@@ -1,4 +1,16 @@
 //========================
+// SCROLL TOP
+//========================
+
+$(document).ready(function() {
+  $('.navbar-brand').on('click', function() {
+    $('body').animate({
+      scrollTop: 0
+    }, 'slow');
+  });
+});
+
+//========================
 // PRELOADER
 //========================
 

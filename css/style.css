@@ -199,3 +199,7 @@ CUSTOM BOOTSTRAP OVERRIDES
     width: 16px;
     height: 16px;
 }
+
+.navbar-brand:hover{
+    cursor: pointer; cursor: hand;
+}
