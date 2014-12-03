@@ -5,7 +5,7 @@ All the data was curated from the Octopress Wiki pages by using a simple [Ruby S
 
 ## Theme submission
 
-This site built with jekyll, so you can easily submit pull requests by doing the next few steps:
+The site is built with jekyll, so you can easily submit pull requests by doing the next few steps:
 
 1. Fork the repo
 2. Create a new post in the `_posts` directory, named "YYYY-MM-DD-#{theme_name.underscore.dasherize}".
@@ -22,8 +22,10 @@ description: E.G: Minimal and responsive theme
 ---
 ```
 
-4. Add a screenshot sized 400x300px in the `screenshots` folder. The screenshot should be a png, and have a slug name (so, if the name of the theme is 'SuperTheme', the screenshot should be 'super-theme.png').
+4. Add a screenshot sized 400x300px in the `screenshots` folder. The screenshot should be in a png format, and be named as the slug name of the theme (so, if the name of the theme is 'SuperTheme', the screenshot file should be 'super-theme.png').
 
 ## Credits
 
-The layout used is an open source theme called [Drifolio-Bootstrap](https://github.com/srizon/Drifolio-Bootstrap) by [@srizon](https://github.com/srizon).
+The layout used is an open source template called [Drifolio-Bootstrap](https://github.com/srizon/Drifolio-Bootstrap) by [@srizon](https://github.com/srizon).
+
+The site was inspired by [Jekyll Themes](http://jekyllthemes.org/).
