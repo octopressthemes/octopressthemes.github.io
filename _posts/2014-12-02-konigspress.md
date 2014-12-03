@@ -1,5 +1,6 @@
 ---
 title: Konigspress
+slug: konigspress
 github_link: https://github.com/TheChymera/Koenigspress
 demo_preview: http://mw.chymera.eu/
 demo_screenshot: 

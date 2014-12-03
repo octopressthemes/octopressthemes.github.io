@@ -1,5 +1,6 @@
 ---
 title: MediumFox
+slug: medium-fox
 github_link: https://github.com/sevenadrian/MediumFox
 demo_preview: http://adrianartiles.com/
 demo_screenshot: 

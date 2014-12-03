@@ -1,5 +1,6 @@
 ---
 title: classic-martinb
+slug: classic-martinb
 github_link: https://github.com/fapper/classic-martinb
 demo_screenshot: https://raw.githubusercontent.com/fapper/classic-martinb/master/classic-martinb.png
 demo_preview: 

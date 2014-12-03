@@ -1,5 +1,6 @@
 ---
 title: CleanerPress
+slug: cleaner-press
 github_link: https://github.com/pera/cleanerpress
 demo_preview: http://blog.peramid.es/
 demo_screenshot: 

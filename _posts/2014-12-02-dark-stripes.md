@@ -1,5 +1,6 @@
 ---
 title: DarkStripes
+slug: dark-stripes
 github_link: https://github.com/amelandri/darkstripes
 demo_preview: http://melandri.net/
 demo_screenshot: 

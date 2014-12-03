@@ -1,5 +1,6 @@
 ---
 title: slimpress
+slug: slimpress
 github_link: https://github.com/jeremyrea/slimpress
 demo_preview: http://staticbrace.com
 demo_screenshot: 

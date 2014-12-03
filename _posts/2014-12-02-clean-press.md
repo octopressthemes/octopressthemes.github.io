@@ -1,5 +1,6 @@
 ---
 title: CleanPress
+slug: clean-press
 github_link: http://github.com/macjasp/cleanpress
 demo_preview: http://macjasp.github.io/
 demo_screenshot: 

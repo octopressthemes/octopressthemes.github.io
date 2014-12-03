@@ -1,5 +1,6 @@
 ---
 title: mnmlpress
+slug: mnmlpress
 github_link: https://github.com/tcnksm/mnmlpress
 demo_preview: http://deeeet.com/writing/
 demo_screenshot: 

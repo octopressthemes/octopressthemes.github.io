@@ -1,5 +1,6 @@
 ---
 title: bootstrap-theme
+slug: bootstrap-theme
 github_link: https://github.com/bkutil/bootstrap-theme
 demo_preview: http://bootstrap-theme.kutilovi.cz/
 demo_screenshot: 

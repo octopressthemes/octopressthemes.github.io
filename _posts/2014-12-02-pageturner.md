@@ -1,5 +1,6 @@
 ---
 title: pageturner
+slug: pageturner
 github_link: https://github.com/elisehein/Pageturner
 demo_preview: http://fivetonine.eu
 demo_screenshot: 
